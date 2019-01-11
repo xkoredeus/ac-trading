@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'HelveticaNeueCyr-ThinItalic';
+    src: url('HelveticaNeueCyr-ThinItalic.woff2') format('woff2'),
+        url('HelveticaNeueCyr-ThinItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('Gilroy-Light.woff2') format('woff2'),
+        url('Gilroy-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-Medium';
+    src: url('HelveticaNeueCyr-Medium.woff2') format('woff2'),
+        url('HelveticaNeueCyr-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-Italic';
+    src: url('HelveticaNeueCyr-Italic.woff2') format('woff2'),
+        url('HelveticaNeueCyr-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-MediumItalic';
+    src: url('Gilroy-MediumItalic.woff2') format('woff2'),
+        url('Gilroy-MediumItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-UltraLightItalic';
+    src: url('Gilroy-UltraLightItalic.woff2') format('woff2'),
+        url('Gilroy-UltraLightItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Heavy';
+    src: url('Gilroy-Heavy.woff2') format('woff2'),
+        url('Gilroy-Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-Thin';
+    src: url('HelveticaNeueCyr-Thin.woff2') format('woff2'),
+        url('HelveticaNeueCyr-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Extrabold';
+    src: url('Gilroy-Extrabold.woff2') format('woff2'),
+        url('Gilroy-Extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-BlackItalic';
+    src: url('Gilroy-BlackItalic.woff2') format('woff2'),
+        url('Gilroy-BlackItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-ExtraboldItalic';
+    src: url('Gilroy-ExtraboldItalic.woff2') format('woff2'),
+        url('Gilroy-ExtraboldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueBlackCondensed';
+    src: url('HelveticaNeueBlackCondensed.woff2') format('woff2'),
+        url('HelveticaNeueBlackCondensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-LightItalic';
+    src: url('Gilroy-LightItalic.woff2') format('woff2'),
+        url('Gilroy-LightItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-Bold';
+    src: url('HelveticaNeueCyr-Bold.woff2') format('woff2'),
+        url('HelveticaNeueCyr-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('Gilroy-Regular.woff2') format('woff2'),
+        url('Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-HeavyItalic';
+    src: url('Gilroy-HeavyItalic.woff2') format('woff2'),
+        url('Gilroy-HeavyItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-BoldItalic';
+    src: url('Gilroy-BoldItalic.woff2') format('woff2'),
+        url('Gilroy-BoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('Gilroy-Medium.woff2') format('woff2'),
+        url('Gilroy-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Thin';
+    src: url('Gilroy-Thin.woff2') format('woff2'),
+        url('Gilroy-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-SemiboldItalic';
+    src: url('Gilroy-SemiboldItalic.woff2') format('woff2'),
+        url('Gilroy-SemiboldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-Heavy';
+    src: url('HelveticaNeueCyr-Heavy.woff2') format('woff2'),
+        url('HelveticaNeueCyr-Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-LightItalic';
+    src: url('HelveticaNeueCyr-LightItalic.woff2') format('woff2'),
+        url('HelveticaNeueCyr-LightItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-ThinItalic';
+    src: url('Gilroy-ThinItalic.woff2') format('woff2'),
+        url('Gilroy-ThinItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-Roman';
+    src: url('HelveticaNeueCyr-Roman.woff2') format('woff2'),
+        url('HelveticaNeueCyr-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-UltraLightItalic';
+    src: url('HelveticaNeueCyr-UltraLightItalic.woff2') format('woff2'),
+        url('HelveticaNeueCyr-UltraLightItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-BlackItalic';
+    src: url('HelveticaNeueCyr-BlackItalic.woff2') format('woff2'),
+        url('HelveticaNeueCyr-BlackItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-RegularItalic';
+    src: url('Gilroy-RegularItalic.woff2') format('woff2'),
+        url('Gilroy-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-Light';
+    src: url('HelveticaNeueCyr-Light.woff2') format('woff2'),
+        url('HelveticaNeueCyr-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: url('Gilroy-Semibold.woff2') format('woff2'),
+        url('Gilroy-Semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-BoldItalic';
+    src: url('HelveticaNeueCyr-BoldItalic.woff2') format('woff2'),
+        url('HelveticaNeueCyr-BoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-UltraLight';
+    src: url('HelveticaNeueCyr-UltraLight.woff2') format('woff2'),
+        url('HelveticaNeueCyr-UltraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueBoldCondensed';
+    src: url('HelveticaNeueBoldCondensed.woff2') format('woff2'),
+        url('HelveticaNeueBoldCondensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-Black';
+    src: url('HelveticaNeueCyr-Black.woff2') format('woff2'),
+        url('HelveticaNeueCyr-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Black';
+    src: url('Gilroy-Black.woff2') format('woff2'),
+        url('Gilroy-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
