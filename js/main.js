@@ -61,7 +61,9 @@ $('.adj__cnt').owlCarousel({
             items: 1
         },
         480 : {
-            items: 1
+            items: 1,
+            nav: true,
+            navText: ["<img src='img/slider__prev.svg'>", "<img src='img/slider__next.svg'>"]
         },
         768 : {
             items: 3

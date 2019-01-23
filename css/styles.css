@@ -1047,6 +1047,7 @@ button:active{
   }
   .input__wrp input {
     border: transparent;
+    width: 100%;
   }
 .cost {
   position: relative;
@@ -1102,11 +1103,13 @@ button:active{
     margin-bottom: 40px;
   }
   .adj__item {
-    padding: 30px 20px;
+    padding: 30px;
     height: 500px;
     position: relative;
     background: #1C496F;
     overflow: hidden;
+    max-width: 390px;
+    margin: auto;
   }
     .adj__item::before {
       content: '';
@@ -1200,6 +1203,7 @@ button:active{
   flex-wrap: wrap;
 }
   .key__item {
+    max-width: 491px;
     min-height: 400px;
     width: 50%;
     position: relative;
@@ -1449,6 +1453,12 @@ button:active{
   #vmap {
     margin: 0 auto;
   }
+.tab-content__item {
+    -moz-transition: unset;
+    -webkit-transition-property: unset;
+    -webkit-transition-duration: unset;
+    -webkit-transition-timing-function: unset;
+}
 .sys {
   background: #003560;
   color: #fff;
@@ -1598,6 +1608,7 @@ button:active{
     }
     .cons__form {
       max-width: 679px;
+      position: relative;
     }
       .cons__form .input__wrp {
         margin-bottom: 15px;
