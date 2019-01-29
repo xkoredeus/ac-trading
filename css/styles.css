@@ -667,7 +667,7 @@ button:active{
     display: flex;
   }
     .cat__item-wrp {
-      height: 442px;
+      height: 462px;
       width: 25%;
       max-width: 287px;
       position: relative;
@@ -726,9 +726,17 @@ button:active{
       }
         .cat__item-ttl {
           font-family: 'HelveticaNeueCyr-Bold';
-          font-size: 20px;
+          font-size: 18px;
           text-transform: uppercase;
           margin-bottom: 20px;
+          min-height: 100px;
+          display: -webkit-flex;
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: flex;
+          -ms-align-items: center;
+          align-items: center;
         }
         .cat__item-img {
           width: 100%;
@@ -1148,32 +1156,42 @@ button:active{
       position: relative;
       z-index: 2;
     }
-      .adj__cat {
-        font-family: 'HelveticaNeueCyr-Heavy';
-        font-size: 20px;
-        text-transform: uppercase;
-        margin-top: 15px;
+      .adj__top {
+        position: relative;
+        z-index: 2;
       }
-      .adj__logo {
-        max-height: 70px;
-        max-width: 130px;
-      }
+        .adj__cat {
+          font-family: 'HelveticaNeueCyr-Heavy';
+          font-size: 20px;
+          text-transform: uppercase;
+          margin-top: 15px;
+        }
+        .adj__logo {
+          max-height: 70px;
+          max-width: 130px;
+        }
       .adj__img {
         max-width: 290px;
         max-height: 100%;
         position: absolute;
         bottom: -30px;
-        right:  -20px;
+        right:  -30px;
       }
       .adj__descr {
         max-width: 130px;
+        position: relative;
+        z-index: 2;
       }
-  /*.adj__item:hover::before {
-    opacity: 0;
+  .adj__item:last-child .adj__in {
+    justify-content: flex-start;
   }
-  .adj__item:hover::after {
-    opacity: 1;
-  }*/
+    .adj__item .adj__descr {
+      margin-top: 50px;
+    }
+    .adj__item:last-child .adj__img {
+      max-width: unset;
+      width: 120%;
+    }
   .adj__cnt .owl-stage-outer {
     padding: 40px 0 55px;
   }
@@ -1432,13 +1450,13 @@ button:active{
   text-align: left;
 }
 .about__descr {
-  font-size: 17px;
+  font-size: 15px;
 }
 .about__descr:not(last-child) {
   margin-bottom: 25px;
 }
   .about__img {
-    width: 160px;
+    /*width: 160px;*/
     height: 150px;
     border-radius: 6px;
     margin-bottom: 13px;
@@ -1561,6 +1579,9 @@ button:active{
         text-transform: uppercase;
         position: relative;
       }
+      .sys__subttl {
+        font-size: 20px;
+      }
       .sys__btn {
         max-width: 220px;
         position: relative;
@@ -1634,7 +1655,6 @@ button:active{
         margin-right: 8px;
       }
       .cons__info-ttl {
-        font-size: 16px;
         font-family: 'HelveticaNeueCyr-Heavy';
         text-transform: uppercase;
         margin-bottom: 9px;
