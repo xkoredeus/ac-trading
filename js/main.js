@@ -4,23 +4,6 @@ $('.main-slider__wrp').owlCarousel({
       items: 1,
       loop: false,
       navText: ["<img src='img/slider__prev.svg'>", "<img src='img/slider__next.svg'>"]
-      // responsive : {
-      //   0   : {
-      //       items: 1
-      //   },
-      //   380 : {
-      //       items: 1
-      //   },
-      //   480 : {
-      //       items: 1
-      //   },
-      //   768 : {
-      //       items: 3
-      //   },
-      //   1040 : {
-      //       items: 4
-      //   }
-      // }
 });
 $('.hot__cnt').owlCarousel({
       nav: true,
@@ -45,6 +28,13 @@ $('.hot__cnt').owlCarousel({
             items: 3
         }
       }
+});
+
+$('.key__cnt-wrp').owlCarousel({
+      nav: false,
+      dots: true,
+      items: 1,
+      loop: true,
 });
 $('.adj__cnt').owlCarousel({
       nav: false,
