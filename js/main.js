@@ -2,7 +2,11 @@ $('.main-slider__wrp').owlCarousel({
       nav: true,
       dots: true,
       items: 1,
-      loop: false,
+      autoplay: true,
+      slideSpeed: 700,
+      animateIn: 'fadeIn',
+      animateOut: 'fadeOut',
+      loop: true,
       navText: ["<img src='img/slider__prev.svg'>", "<img src='img/slider__next.svg'>"]
 });
 $('.hot__cnt').owlCarousel({
